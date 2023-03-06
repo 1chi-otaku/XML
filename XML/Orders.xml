@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<orders>
+	<order N010123328="CPU" Price="399.99" />
+	<order N020123328="GPU" Price="1299.99" />
+	<order N030123328="Montior" Price="299.99" />
+</orders>

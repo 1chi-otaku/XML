@@ -57,9 +57,7 @@ namespace XML
 
             xmlwriter.Close();
 
-
-            List<Order> orders_read = new List<Order>();
-
+            #region #2
             XmlTextReader reader = new XmlTextReader("../../Orders.xml");
             string str = null;
             while (reader.Read()) // Считывает следующий узел из потока
@@ -82,7 +80,7 @@ namespace XML
             }
             Console.WriteLine(str);
             reader.Close();
-
+            #endregion
 
         }
     }
